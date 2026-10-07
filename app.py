@@ -4,9 +4,9 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 
-st.set_page_config(page_title="Job Scheduling Simulator", page_icon="⚙️", layout="wide")
+st.set_page_config(page_title="Job Scheduling Simulator", layout="wide")
 
-st.title("⚙️ Job Scheduling Simulator")
+st.title("Job Scheduling Simulator")
 st.caption("Single-machine, non-preemptive scheduling • FCFS • SPT • EDD • Priority")
 
 DEFAULT = pd.DataFrame({
